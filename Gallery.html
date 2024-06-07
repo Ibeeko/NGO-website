@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALLERY</title>
+    <link rel="stylesheet" href="Assignment-navigation.css">
+    <style>
+        .grid-contain{
+            display: grid;
+            
+           background-color: blanchedalmond;
+           grid-template-columns: 290px 290px 290px 290px;
+           gap: 20px; 
+           align-content: space-evenly;
+            padding: 10px;
+            justify-content: space-between;
+            transform: scale(1);
+            transition: transform 2s;
+            
+            
+        }
+        .grid-contain div > img{
+            width: 100%;
+            height: 100%;
+        }
+        img{
+            filter: opacity(50%);
+        }
+        img:hover{
+            filter: opacity(100%);
+        }
+        button{
+            border: solid;
+            margin: 10px;
+            margin-top: 20px;
+            border-radius: 5px;
+            background-color: burlywood ;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="logo"><img src="NWTF-Logo-2048x754.png" alt="" width="120px" height="50px"></li>
+        <li> <a href="Assignment-navigation.html">HOME</a></li>
+        <li> <a href="#">ABOUT</a></li>
+        <li> <a href="#">OUR INITIATIVES</a></li>
+        <li> <a href="#">MEDIA CENTER</a></li>
+        <li> <a href="#">CONTACT US</a></li>
+        <li> <a href="Gallery.html">GALLERY</a></li>
+        <li class="news"> <a href="News.html">NEWS</a></li>
+    </ul>
+    <h1>GALLERY</h1>
+    <div class="grid-contain">
+        <div><img src="1.jpg">PRESIDENT</div>
+        <div><img src="2.jpg">PROJECT MANAGER</div>
+        <div><img src="3.jpg">PROCUREMENT OFFICER</div>
+        <div><img src="4.jpg">HR OFFICER</div>
+        <div><img src="5.jpg">IT OFFICER</div>
+        <div><img src="6.jpg">CONFERENCE</div>
+        <div><img src="7.jpg">CHIEF EXECUTIVE OFFICER</div>
+        <div><img src="17.jpg">PROGRAME OFFICER</div>
+        <div><img src="9.jpg">MEETING</div>
+        <div><img src="chef3.jpg">COMMUNICATIONS ASSISTANT</div>
+        <div><img src="11.jpg">ADMIN AND FINANCE MANAGER</div>
+        <div><img src="12.jpg">PROGRAM OFFICER</div>
+        <div><img src="13.jpg">FRONT DESK OFFICER</div>
+        <div><img src="14.jpeg">PROJECT LEAD</div>
+        <div><img src="15.jpeg">TEAM MEMBER</div>
+        <div><img src="16.jpg">TEAM MEMBER</div>
+    </div>
+    
+</body>
+</html>

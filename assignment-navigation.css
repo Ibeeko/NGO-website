@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+h1{
+    text-decoration: none;
+}
+p{
+    text-align: justify;
+}
+img{
+    float: left;
+}
+.img2{
+    float: right;
+}
+.img3{
+    float: left;
+}
+/* p{
+    float: right;
+} */
+ul{
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:lightgrey;
+}
+li{
+    display: inline-block;
+}
+a{
+    display: block;
+    color: green;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    transform: scale(1);
+    transition: transform 0.5s;
+    float: left;
+
+
+}
+a:hover{
+    background-color: lightseagreen;
+    color: white;
+    transform: scale(1.1);
+    text-decoration: underline white 3px;
+}
+.logo{
+    display: inline-block;
+    float: left;
+    border: 2px;
+    margin-left: 10px;
+    padding:0;
+}
+.news{
+    float: inline-end;
+}
